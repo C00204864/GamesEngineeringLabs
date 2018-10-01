@@ -1,0 +1,5 @@
+﻿  Game.cpp
+c:\users\liamh\desktop\collegework\gamesengineering\labs\commandpattern\commandpattern\game.cpp(31): warning C4244: '-=': conversion from 'float' to 'Uint32', possible loss of data
+  InputHandler.cpp
+  Generating Code...
+  CommandPattern.vcxproj -> C:\Users\liamh\Desktop\CollegeWork\GamesEngineering\Labs\CommandPattern\Debug\CommandPattern.exe
