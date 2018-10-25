@@ -1,0 +1,4 @@
+﻿  Game.cpp
+c:\users\liamh\desktop\fsm\commandpattern\commandpattern\game.cpp(42): warning C4244: '-=': conversion from 'float' to 'Uint32', possible loss of data
+c:\users\liamh\desktop\fsm\commandpattern\commandpattern\game.cpp(70): warning C4244: 'argument': conversion from 'float' to 'Uint32', possible loss of data
+  CommandPattern.vcxproj -> C:\Users\liamh\Desktop\FSM\CommandPattern\Debug\CommandPattern.exe
