@@ -1,0 +1,108 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\ECS">
+      <UniqueIdentifier>{d163a37a-99dc-4cda-a550-4325de1fff9f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ECS">
+      <UniqueIdentifier>{f9705891-7a5e-4e43-a51f-1553bd0d9735}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\UserSystems">
+      <UniqueIdentifier>{2af328e5-6fa3-4988-b842-174ffe0cb31a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\UserComponents">
+      <UniqueIdentifier>{f4492f1d-7612-493c-a2a7-b33238a170f0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\UserComponents">
+      <UniqueIdentifier>{1ab4ad0f-4847-4f9d-9c88-a4629cdfae47}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\UserSystems">
+      <UniqueIdentifier>{57fa4a4d-0b12-4874-bfbb-0a941f68dc6c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Entity.cpp">
+      <Filter>Source Files\ECS</Filter>
+    </ClCompile>
+    <ClCompile Include="Component.cpp">
+      <Filter>Source Files\ECS</Filter>
+    </ClCompile>
+    <ClCompile Include="System.cpp">
+      <Filter>Source Files\ECS</Filter>
+    </ClCompile>
+    <ClCompile Include="HealthComponent.cpp">
+      <Filter>Source Files\UserComponents</Filter>
+    </ClCompile>
+    <ClCompile Include="HealthSystem.cpp">
+      <Filter>Source Files\UserSystems</Filter>
+    </ClCompile>
+    <ClCompile Include="PositionComponent.cpp">
+      <Filter>Source Files\UserComponents</Filter>
+    </ClCompile>
+    <ClCompile Include="ControlSystem.cpp">
+      <Filter>Source Files\UserSystems</Filter>
+    </ClCompile>
+    <ClCompile Include="AISystem.cpp">
+      <Filter>Source Files\UserSystems</Filter>
+    </ClCompile>
+    <ClCompile Include="RenderSystem.cpp">
+      <Filter>Source Files\UserSystems</Filter>
+    </ClCompile>
+    <ClCompile Include="RenderComponent.cpp">
+      <Filter>Source Files\UserComponents</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Game.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Entity.h">
+      <Filter>Header Files\ECS</Filter>
+    </ClInclude>
+    <ClInclude Include="Component.h">
+      <Filter>Header Files\ECS</Filter>
+    </ClInclude>
+    <ClInclude Include="System.h">
+      <Filter>Header Files\ECS</Filter>
+    </ClInclude>
+    <ClInclude Include="HealthComponent.h">
+      <Filter>Header Files\UserComponents</Filter>
+    </ClInclude>
+    <ClInclude Include="HealthSystem.h">
+      <Filter>Header Files\UserSystems</Filter>
+    </ClInclude>
+    <ClInclude Include="PositionComponent.h">
+      <Filter>Header Files\UserComponents</Filter>
+    </ClInclude>
+    <ClInclude Include="ControlSystem.h">
+      <Filter>Header Files\UserSystems</Filter>
+    </ClInclude>
+    <ClInclude Include="AISystem.h">
+      <Filter>Header Files\UserSystems</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderSystem.h">
+      <Filter>Header Files\UserSystems</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderComponent.h">
+      <Filter>Header Files\UserComponents</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
