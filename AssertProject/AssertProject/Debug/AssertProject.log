@@ -1,4 +1,3 @@
 ﻿  main.cpp
-c:\users\liamh\desktop\assertproject\assertproject\main.cpp(7): warning C4018: '<': signed/unsigned mismatch
-c:\users\liamh\desktop\assertproject\assertproject\main.cpp(36): warning C4715: 'checkRepetition': not all control paths return a value
-  AssertProject.vcxproj -> C:\Users\liamh\Desktop\AssertProject\Debug\AssertProject.exe
+c:\users\liamh\desktop\gamesengineeringlabs\assertproject\assertproject\main.cpp(7): warning C4018: '<': signed/unsigned mismatch
+  AssertProject.vcxproj -> C:\Users\liamh\Desktop\GamesEngineeringLabs\AssertProject\Debug\AssertProject.exe

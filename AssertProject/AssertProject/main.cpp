@@ -26,7 +26,7 @@ bool checkRepetition(int argc, int startPoint, char * argv[])
 	{
 		for (int j = i + 1; j < argc; ++j)
 		{
-			if (*argv[i] == *argv[j])
+			if (!strcmp(argv[i], argv[j]))
 			{
 				return false;
 			}
